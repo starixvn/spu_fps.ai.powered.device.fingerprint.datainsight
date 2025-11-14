@@ -1,0 +1,48 @@
+# CSV files
+*.csv
+data/*.csv
+*.CSV
+data/*.CSV
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output files
+*.log
+*.out
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# JSON output files (optional - remove if you want to track these)
+device_matching_config_final.json
+device_matching_weights_final.csv
+threshold_testing_results*.csv
+threshold_testing_validation_pairs*.csv
+threshold_testing_results*.png
+
